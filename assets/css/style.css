@@ -40,7 +40,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 form{
@@ -75,6 +75,7 @@ form img{
 }
 
 main{
+  margin-top: 20px;
   background-color: white;
   border-radius: 20px;
   color: black;
@@ -132,4 +133,8 @@ main{
 
 .detail-fetch{
   font-size: 20px;
+}
+
+.search{
+  display: none;
 }
