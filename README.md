@@ -5,16 +5,17 @@ current weather conditions for any location worldwide.
 
 ## Features 
 
-- Current Tempeature
-- Feels like temperature
-- Description about weather
-- Solar Radiation
-- Wind Speed
-- Humidity
-- Visibility
-- UV index
-- Pressure
-- location
+- Current Temperature
+- Feels like Temperature
+- Detailed Weather Description
+- Solar Radiation Data
+- Wind Speed Analysis
+- Humidity Levels
+- Visibility Insights
+- UV Index Information
+- Pressure Measurements
+- Accurate Location Tracking
+
   
 ## Technologies Used ⚡
 
