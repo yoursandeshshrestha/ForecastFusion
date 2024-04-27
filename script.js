@@ -7,8 +7,8 @@ const visualcrossingApi = "6RZDFTSMLRM6FPBMAHGMZ826Y";
 
 function checkWeather() {
     city = user.value.trim();
-    const besturl = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=metric&key=${visualcrossingApi}&contentType=json`
-    fetch(besturl)
+    const URL = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${city}?unitGroup=metric&key=${visualcrossingApi}&contentType=json`
+    fetch(URL)
         .then((response) => response.json())
         .then((data) => {
             // console.log(data);
@@ -33,7 +33,4 @@ submit.addEventListener("click", (e)=>{
     e.preventDefault();
     checkWeather();
     user.value = "";
-    setTimeout(()=>{
-        search.style.display = "block";
-    }, 2000)
 })
